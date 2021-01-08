@@ -1,5 +1,4 @@
-# Single page star like
+# Single page 
 
 ### single page website with different sections
 
-each body height == 100vh
