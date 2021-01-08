@@ -64,7 +64,9 @@ header .navigation a:hover {
   background: url(close.png);
   background-size: 30px;  
 } */
-
+header .menu-toggle {
+  color: #161616;
+}
 /* start responsive */
 @media (max-width: 991px) {
   header .navigation {
@@ -81,6 +83,7 @@ header .navigation a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 999;
     background-color: #e51e2a;
   }
 
