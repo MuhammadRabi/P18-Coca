@@ -48,6 +48,71 @@ header .navigation a:hover {
   opacity: 0.8;
 }
 
+/*.menu-toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(menu.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/*.menu-toggle .ACTIVE{
+  background: url(close.png);
+  background-size: 30px;  
+} */
+
+/* start responsive */
+@media (max-width: 991px) {
+  header .navigation {
+    display: none;
+  }
+
+  header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e51e2a;
+  }
+
+  header .menu-toggle {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    z-index: 1000;
+  }
+
+  header .menu-toggle .closeBtn {
+    display: none;
+  }
+  header .active.menu-toggle .closeBtn {
+    display: inline;
+  }
+
+  header .active.menu-toggle .openBtn {
+    display: none;
+  }
+
+  header .navigation a {
+    padding: 10px;
+  }
+}
+
+/* end responsive */
+
 section {
   position: relative;
   width: 100%;
