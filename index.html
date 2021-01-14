@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-      crossorigin="anonymous"
-    />
-    <title>commercial landing page</title>
-  </head>
-  <body>
-    <section>
-      <div class="circle"></div>
-      <header>
-        <div class="logo">
-          <img src="./img/logo.png" alt="" />
-        </div>
-        <!-- navbar toggle at small screen-->
-        <div class="menu-toggle">
-          <span class="openBtn"><i class="fas fa-bars"></i></span>
-          <span class="closeBtn"><i class="fas fa-times"></i></span>
-        </div>
-        <ul class="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">about us</a></li>
-          <li><a href="#">products</a></li>
-          <li><a href="#">contact us</a></li>
-          <li><a href="#">Home</a></li>
-        </ul>
-      </header>
-      <div class="info-text">
-        <h1>taste the feeling</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ex
-          magnam eligendi rem voluptatem perferendis fugit commodi aliquid quod
-          voluptas nulla non temporibus, ducimus quo repudiandae beatae maiores
-          cumque nemo dolore ipsum reiciendis. Assumenda fugit sit id tempora
-          illo perspiciatis!
-        </p>
-        <button>learn more</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <!-- swiper js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <title>commercial landing page</title>
+</head>
+
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
       </div>
-      <ul class="social-icons">
-        <li>
-          <a href="#"><img src="./img/facebook.png" alt="facebook" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="./img/instagram.png" alt="insta" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="./img/twitter.png" alt="twitter" /></a>
-        </li>
+      <!-- navbar toggle at small screen-->
+      <div class="menu-toggle">
+        <span class="openBtn"><i class="fas fa-bars"></i></span>
+        <span class="closeBtn"><i class="fas fa-times"></i></span>
+      </div>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">products</a></li>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">Home</a></li>
       </ul>
-    </section>
-    <script src="js/script.js"></script>
-  </body>
+    </header>
+    <div class="info-text">
+      <h1>taste the feeling</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ex
+        magnam eligendi rem voluptatem perferendis fugit commodi aliquid quod
+        voluptas nulla non temporibus, ducimus quo repudiandae beatae maiores
+        cumque nemo dolore ipsum reiciendis. Assumenda fugit sit id tempora
+        illo perspiciatis!
+      </p>
+      <button>learn more</button>
+    </div>
+    <!-- Swiper -->
+    <div class="img-box">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/cocacola1.png" alt=""></div>
+          <div class="swiper-slide"><img src="./img/cocacola2.png" alt=""></div>
+          <div class="swiper-slide"><img src="./img/cocacola3.png" alt=""></div>
+          <div class="swiper-slide"><img src="./img/cocacola4.png" alt=""></div>
+          <div class="swiper-slide"><img src="./img/cocacola5.png" alt=""></div>
+          <div class="swiper-slide"><img src="./img/cocacola6.png" alt=""></div>
+        </div>
+      </div>
+
+      <!-- Swiper JS -->
+    </div>
+
+    <ul class="social-icons">
+      <li>
+        <a href="#"><img src="./img/facebook.png" alt="facebook" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="./img/instagram.png" alt="insta" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="./img/twitter.png" alt="twitter" /></a>
+      </li>
+    </ul>
+  </section>
+  <!-- swiper js-->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

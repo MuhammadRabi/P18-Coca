@@ -111,6 +111,8 @@ header .menu-toggle {
 
   header .navigation a {
     padding: 10px;
+    font-size: 25px;
+    margin: 10px;
   }
 }
 
@@ -208,4 +210,42 @@ section .circle {
 .social-icons img {
   filter: invert(1);
   transform: scale(0.5);
+}
+
+/* swiper */
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  position: absolute;
+  max-height: 100%;
+  bottom: 0;
+}
+
+.img-box {
+  display: flex;
+  width: 500px;
+  justify-content: flex-end;
+}
+
+.img-box img {
+  max-width: 150px;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: none;
 }
