@@ -6,7 +6,7 @@ fully responsive landing simple landing page
 
 * Vanilla js
 * Swiper slider
-* Sass
+* CSS
 
 
 ## Contributing
